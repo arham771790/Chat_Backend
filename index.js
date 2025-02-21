@@ -23,7 +23,7 @@ app.use(express.urlencoded({ limit: "10mb", extended: true })); // For URL-encod
 
 
 const corsOptions = {
-  origin: "https://chat-frontend-omega-gules.vercel.app/login", // Allow your frontend origin
+  origin: "https://chat-frontend-omega-gules.vercel.app", // Allow your frontend origin
   credentials: true, // Allow cookies and authentication headers
 };
 
